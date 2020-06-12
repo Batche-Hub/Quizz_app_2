@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".ResultatActivity">
+
+    <TextView
+        android:id="@+id/textViewVoiciResultat"
+        android:layout_width="215dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="49dp"
+        android:autoSizeTextType="uniform"
+        android:text="Voici votre résultat"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewResultat"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="77dp"
+        android:autoSizeTextType="uniform"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVoiciResultat" />
+
+    <TextView
+        android:id="@+id/textViewCool"
+        android:layout_width="195dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="112dp"
+        android:autoSizeTextType="uniform"
+        android:text="😀"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResultat" />
+
+    <TextView
+        android:id="@+id/textViewBof"
+        android:layout_width="195dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="112dp"
+        android:autoSizeTextType="uniform"
+        android:text="😐"
+        android:textAlignment="center"
+        android:textColor="#AFAC4C"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResultat" />
+
+    <TextView
+        android:id="@+id/textViewNull"
+        android:layout_width="195dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="112dp"
+        android:autoSizeTextType="uniform"
+        android:text="😭"
+        android:textAlignment="center"
+        android:textColor="#AF4C4C"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResultat" />
+</androidx.constraintlayout.widget.ConstraintLayout>
